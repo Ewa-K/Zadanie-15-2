@@ -43,10 +43,10 @@ App = React.createClass({
                 } else {
                     reject(error);
                 }
-                xhr.send();
-                .then(response => console.log('Contents: ' + response))
-                .catch(error => console.error('Something went wrong', error));
             });
+        xhr.send();
+        .then(response => console.log('Contents: ' + response))
+        .catch(error => console.error('Something went wrong', error));
     },
     
 
