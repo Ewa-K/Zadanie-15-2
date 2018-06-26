@@ -49,7 +49,7 @@ App = React.createClass({
             }
             xhr.onerror = reject
             xhr.send();
-    }),
+    )},
 
     render: function() {
         var styles = {
