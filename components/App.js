@@ -1,5 +1,6 @@
 var GIPHY_API_URL = 'http://api.giphy.com';
-var GIPHY_PUB_KEY = 'yRdGDmfw2XonUvHrE9bBHRqaMspnwk4D';
+var GIPHY_PUB_KEY = 'dc6zaTOxFJmzC';
+// var GIPHY_PUB_KEY = 'yRdGDmfw2XonUvHrE9bBHRqaMspnwk4D';
 
 App = React.createClass({
 
