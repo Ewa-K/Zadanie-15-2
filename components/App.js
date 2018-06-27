@@ -42,14 +42,14 @@ App = React.createClass({
                             sourceUrl: data.url
                         };
                         resolve(gif);
-                    }
-                } else {
-                    reject(JSON.parse(xhr.responseText));
+                    } else {
+                        reject(JSON.parse(xhr.responseText));
                 }
             }
             xhr.onerror = reject
             xhr.send();
-    )},
+        });
+    },
 
     render: function() {
         var styles = {
